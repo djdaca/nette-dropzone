@@ -1,0 +1,38 @@
+{
+    "name": "djdaca/nette-dropzone",
+    "description": "Bootstrap Dropzonejs (www.dropzonejs.com) for Nette",
+    "type": "library",
+    "license": ["BSD-3-Clause"],
+    "homepage": "https://github.com/djdaca/nette-dropzone",
+    "authors": [
+        {
+            "name": "Vojtěch Sedláček"
+        },
+        {
+            "name": "Daniel Čekan"
+        }
+    ],
+    "suggest": {
+        "ext-openssl": "To make requests via https"
+    },
+    "require": {
+        "php": ">= 5.4",
+        "nette/di": ">=2.3.0",
+        "nette/application": ">=2.3.0",
+        "nette/utils" : "~2.3",
+        "nette/forms" : "~2.3",
+        "nette/http": ">=2.3.0",
+        "latte/latte": "~2.2"
+    },
+    "require-dev": {
+        "nette/tester": "~1.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DJDaca\\Dropzone\\": "src/"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}

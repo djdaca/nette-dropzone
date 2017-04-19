@@ -1,0 +1,19 @@
+{snippet}
+    <div id="{$id}"
+         data-nette-dropzone=""
+         data-nette-dropzone-settings="{$settings}"
+         data-nette-dropzone-success="{link uploadSuccess!}"
+         data-nette-dropzone-chosen="{_'Dropzone.Chosen'}"
+         data-nette-dropzone-files="{_'Dropzone.Files'}"
+         data-nette-dropzone-uploaded="{_'Dropzone.Uploaded'}"
+         data-nette-dropzone-process="{_'Dropzone.Process'}">
+
+        {control panel}
+
+        <div id="{$id}-dropzone-previews">
+            <div id="{$id}-dropzone-template">
+                {control preview}
+            </div>
+        </div>
+    </div>
+{/snippet}
